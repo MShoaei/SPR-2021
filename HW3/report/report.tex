@@ -1,0 +1,32 @@
+\documentclass[]{article}
+
+\usepackage[within=section]{newfloat}
+\usepackage{caption}
+\usepackage{url}
+\usepackage{graphicx}
+
+\DeclareFloatingEnvironment[name=کد,within=none,placement=h]{code}
+\captionsetup{belowskip=0pt,aboveskip=0pt}
+
+\usepackage{xcolor}
+\usepackage[section,newfloat=true]{minted}
+
+\usemintedstyle{manni}
+
+\definecolor{mintedbackground}{rgb}{0.95,0.95,0.95}
+\setminted[python]{linenos,breaklines,bgcolor=mintedbackground,frame=leftline,autogobble}
+\setminted[bash]{breaklines,bgcolor=mintedbackground,frame=leftline,autogobble}
+
+\usepackage{enumerate}
+
+\usepackage{xepersian}
+\settextfont{XB Niloofar}
+
+
+% Title Page
+\title{}
+\author{محمد شعاعی}
+\begin{document}
+\maketitle
+
+\end{document}

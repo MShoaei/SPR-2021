@@ -1,0 +1,11 @@
+.vscode
+.idea
+*.zip
+__pycache__
+*.ipynb
+_minted-main
+**/*/report/*
+!*.png
+!*.tex
+*.m
+**/*/*.py
